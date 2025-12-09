@@ -1,0 +1,30 @@
+/* 1. Importamos las fuentes 'Playfair Display' (Títulos) y 'Lato' (Textos) de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700;900&display=swap');
+
+/* 2. Estilos Globales del Cuerpo */
+body {
+  margin: 0;
+  /* Usamos 'Lato' para el texto general por su legibilidad */
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Fondo general de la aplicación (Gris azulado muy suave, tono frío) */
+  background-color: #f0f4f8; 
+  color: #333; /* Color de texto base gris oscuro */
+}
+
+/* 3. Estilos para Títulos (H1 - H6) */
+h1, h2, h3, h4, h5, h6 {
+  /* Usamos 'Playfair Display' para dar ese toque sólido y elegante */
+  font-family: 'Playfair Display', serif;
+  font-weight: 700; /* Negrita por defecto para títulos */
+}
+
+/* 4. Estilos para código (Mantenemos los originales de React por si acaso) */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
