@@ -95,7 +95,7 @@ npx prisma db seed
 npm run dev
 ```
 
-**✅ El backend estará corriendo en:** `http://localhost:4000`
+**✅ El backend estará corriendo en:** `https://gestion-escolar-ulos.onrender.com`
 
 ### **Paso 3: Configurar el Frontend**
 ```bash

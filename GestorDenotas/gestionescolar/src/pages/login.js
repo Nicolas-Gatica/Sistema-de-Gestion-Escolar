@@ -71,7 +71,7 @@ const Login = ({ onLoginSuccess }) => {
 
         try {
             // Llamamos a nuestro Backend para forzar el cambio
-            const response = await fetch('http://localhost:4000/api/auth/recovery', {
+            const response = await fetch('https://gestion-escolar-ulos.onrender.com/api/auth/recovery', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 

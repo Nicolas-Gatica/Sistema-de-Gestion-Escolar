@@ -186,7 +186,7 @@ const GestionUsuarios = () => {
             };
 
             try {
-                const response = await fetch(`http://localhost:4000${endpoint}`, {
+                const response = await fetch(`https://gestion-escolar-ulos.onrender.com${endpoint}`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
@@ -269,7 +269,7 @@ const GestionUsuarios = () => {
         
         const endpoint = tabla === 'Profesor' ? `/api/users/profesores/${id}` : `/api/users/estudiantes/${id}`;
         try {
-            const response = await fetch(`http://localhost:4000${endpoint}`, { method: 'DELETE' });
+            const response = await fetch(`https://gestion-escolar-ulos.onrender.com${endpoint}`, { method: 'DELETE' });
             if (!response.ok) throw new Error("Error al eliminar");
             fetchData();
         } catch (e) {

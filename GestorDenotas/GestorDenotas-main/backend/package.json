@@ -17,7 +17,7 @@
     "build": "tsc",
     "start": "node dist/app.js",
     "backup": "ts-node src/scripts/backup.ts",
-    "health": "curl http://localhost:4000/api/health/detailed",
+    "health": "curl https://gestion-escolar-ulos.onrender.com/api/health/detailed",
     "monitor": "ts-node src/scripts/monitor.ts"
   },
   "keywords": [],
